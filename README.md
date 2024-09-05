@@ -4,7 +4,7 @@ Dynamic Expert Profile by using Proposal,PITCH,proposal_answers and Contract INF
 
 app - main file
 
-# How to Deploy Streamlit app on EC2 instance
+# How to Deploy Flask on EC2 instance
 
 ## 1. Login with your AWS console and launch an EC2 instance
 
