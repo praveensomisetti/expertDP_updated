@@ -10,7 +10,6 @@ app - main file
 
 ## 2. Run the following commands
 
-### Note: Do the port mapping to this port:- 8501
 
 ```bash
 sudo apt update
@@ -63,15 +62,15 @@ Save and exit the file by pressing CTRL + X, then Y, and ENTER.
 
 ```bash
 #Temporary running
-python3 -m streamlit run app.py
+flask run
 ```
 
 ```bash
 #Permanent running
-nohup python3 -m streamlit run app.py
+nohup flask run
 ```
 
-Note: Streamlit runs on this port: 8501
+Note: Streamlit runs on this port: 8501, Flask 8080
 
 
 
